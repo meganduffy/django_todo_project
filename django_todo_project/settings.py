@@ -102,7 +102,8 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.config("mysql://bc4875d90c1e37:cfdae356@eu-cdbr-west-01.cleardb.com/heroku_096697a01fd7ba2")
+DATABASES['default'] = dj_database_url.config(
+    "mysql://bc4875d90c1e37:cfdae356@eu-cdbr-west-01.cleardb.com/heroku_096697a01fd7ba2")
 
 
 # Password validation
