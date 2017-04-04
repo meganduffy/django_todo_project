@@ -26,7 +26,7 @@ SECRET_KEY = '46ys!5&nf3v!ckh1p6atllcn(&2gfv79*gd$2@hqrwqg(enmtp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'what-todo-app.herokuapp.com']
 
 
 # Application definition
