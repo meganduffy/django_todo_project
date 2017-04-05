@@ -7,3 +7,4 @@ gunicorn
 dj-database-url
 mysql-python
 drfdocs
+whitenoise==3.2
