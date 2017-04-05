@@ -102,7 +102,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.config(
+DATABASES['default'] = dj_database_url.parse(
     "mysql://bc4875d90c1e37:cfdae356@eu-cdbr-west-01.cleardb.com/heroku_096697a01fd7ba2")
 
 
