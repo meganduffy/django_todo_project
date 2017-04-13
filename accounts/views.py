@@ -12,6 +12,7 @@ class UserView(APIView):
     """
 
     permission_classes = ()
+    serializer_class = UserSerializer
 
     def post(self, request):
         """

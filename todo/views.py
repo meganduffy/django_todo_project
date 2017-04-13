@@ -14,6 +14,7 @@ class TodoView(APIView):
     'todo' items
     """
     permission_classes = (IsAuthenticated,)
+    serializer_class = TodoSerializer
 
     def get(self, request, pk=None):
         """
